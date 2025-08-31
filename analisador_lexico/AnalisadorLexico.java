@@ -8,7 +8,6 @@ import java.util.Map;
 
 public class AnalisadorLexico {
 
-    // Tabela de Palavras Reservadas
     private static final String PALAVRA_RESERVADA = "PALAVRA_RESERVADA";
     private static final String OPERADOR_ARITMETICO = "OPERADOR_ARITMETICO";
     private static final String OPERADOR_LOGICO = "OPERADOR_LOGICO";
@@ -75,7 +74,6 @@ public class AnalisadorLexico {
     }
 
 
-    // Tabela de Símbolos Especiais e Operadores de múltiplos caracteres
     private static final Map<String, String> TOKEN_MAP = new HashMap<>();
     static {
         TOKEN_MAP.put("(", SIMBOLO_ESPECIAL);
